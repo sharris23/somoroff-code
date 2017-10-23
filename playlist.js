@@ -3,4 +3,7 @@ var playlist = new Array();
 /*.widgetcont is what you'll be adding these divs to*/
 function playadd (vid) {
 	playlist[playlist.length]=document.getElementById(vid);
+	document.cookie=playlist;
+	document.getElementById()
+
 }
