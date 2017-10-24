@@ -1,9 +1,13 @@
-var playlist = new Array();
-var w = document.getElementsByClassName("widgetcount");
-var widget = w[0];
-if(document.cookie){
-	widget.innerHTML=document.cookie;
+function makeplaylist() {	
+	var playlist = new Array();
+	var w = document.getElementsByClassName("widgetcount");
+	var widget = w[0];
+	if(document.cookie){
+		widget.innerHTML=document.cookie;
+	}
 }
+document.onload=function(){makeplaylist};
+
 /*button code to be used for each video*/
 /*.widgetcont is what you'll be adding these divs to*/
 function playadd (vid) {
