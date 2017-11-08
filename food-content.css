@@ -1,0 +1,32 @@
+/*#fv_flowplayer_e282d521f5f9a797e5150f9b3fa20004_lightbox_starter {
+    height:30vh;
+    width:30vw;
+    background-size:40vw 40vh;
+}*/
+
+.is-splash.flowplayer {
+    height:31vh;
+    /*height:327px;*/
+    width:31vw;
+    background-size:100% 100%;
+}
+
+/*.fp-ui{
+    width:75vw;
+    height:70vh;
+}
+
+#fv_player_pro_colorbox{
+    width:75vw;
+    height:70vh;
+}
+
+.fp-player{
+    width:75vw;
+    height:70vh;
+}*/
+
+#fv_player_pro_boxLoadedContent{
+    width:75vw;
+    height:70vh;
+}

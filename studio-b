@@ -1,0 +1,32 @@
+.slick-prev.default.slick-arrow{
+    /*margin-left:-0.5%;
+    margin-top:-42%;
+    display:inline-block;*/
+    position:absolute;
+    top:40%;
+    left:8.6%;
+    float:left;
+}
+.slick-next.default.slick-arrow{
+    position:absolute;
+    top:40%;
+    left:89.75%;
+    /*margin-right:-90%;
+    margin-top:-42%;
+    display:inline-block;*/
+    float:right;
+}
+
+.slick-list.draggable{
+    margin-left:10%;
+    margin-right:10%;
+    /*display:inline-block;*/
+}
+
+/*.ult-carousel-194255098059d31f98a0dc6.slick-initialized.slick-slider{
+    white-space: nowrap;
+}*/
+
+/*.slick-track{
+    z-index:120;
+}*/
