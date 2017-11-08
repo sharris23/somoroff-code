@@ -1,0 +1,63 @@
+#page-2052{
+    margin-top:-5%;
+}
+
+
+
+
+#skipperbutton{
+    position:fixed;
+    top:17%;
+    bottom:0;
+    left:82%;
+    z-index:999;
+}
+
+
+
+#videobk{
+    width:70vw;
+    height:70vh;
+}
+
+#mobileimage{
+    display:none;
+}
+
+#imgbk{
+    display:none;
+}
+@media only screen and (max-width:800px){
+    #skipperbutton{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #imgbk {
+        display:block;
+        margin-top:-110%;
+        width:111%;
+    }
+    
+    #introvid {
+        margin-top:-100%;
+        height:120%;
+    }
+    
+    #desktopimage {
+        display:none;
+    }
+    
+    #mobileimage {
+        display:inline-block;
+        margin-top:-115%;
+    }
+    
+    #videobk{
+        margin-top:-10%;
+        margin-bottom:-20%;
+        width:112%;
+        height:50%;
+    }
+}
