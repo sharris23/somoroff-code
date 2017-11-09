@@ -38,8 +38,12 @@ function skipper (){
   var content=document.getElementById("imgbk"); 
   var video=document.getElementById("videobk"); 
   //var mbimg=document.getElementById("mobileimage");
-  video.innerHTML="BLANK";
-  video.style.display='none'; 
-  content.style.display='block'; 
+  window.addEventListener('resize', function() {
+    if (window.innerWidth < 760){
+      video.innerHTML="BLANK";
+      video.style.display='none'; 
+      content.style.display='block';
+    }
+  } 
   //mbimg.style.margin="-200% 0% 0% 0%"
 }
