@@ -38,12 +38,46 @@ function skipper (){
   var content=document.getElementById("imgbk"); 
   var video=document.getElementById("videobk"); 
   //var mbimg=document.getElementById("mobileimage");
-  window.addEventListener('resize', function() {
-    if (window.innerWidth < 760){
+  //window.addEventListener('resize', function() {
+    if (window.innerWidth > 420){
       video.innerHTML="BLANK";
       video.style.display='none'; 
       content.style.display='block';
     }
-  } 
+    else{
+      var test;
+    }
+
+  }//, true);
   //mbimg.style.margin="-200% 0% 0% 0%"
+//}
+
+
+//skip button function code that either replaces the window event or adds a new one entirely 
+
+function skipper (){
+  var content=document.getElementById("imgbk"); 
+  var video=document.getElementById("videobk"); 
+  if (window.attachEvent) {
+    window.attachEvent('onresize', function() {
+      if (window.innerWidth < 430)
+        video.innerHTML="BLANK";
+        video.style.display='none'; 
+        content.style.display='block';
+      else
+        console.log("More than 430");
+    });
+  } else if (window.addEventListener) {
+    window.addEventListener('resize', function() {
+      if (window.innerWidth < 430)
+        video.innerHTML="BLANK";
+        video.style.display='none'; 
+        content.style.display='block';
+      else
+        console.log("More than 430");
+    }, true);
+  } else {
+    //The browser does not support Javascript event binding
+  }
 }
+
