@@ -7,32 +7,35 @@
 	width:50%;
 	height:40%;
 }*/
-#somoroffvid{
+
+
+/*#somoroffdisplay > div:nth-child(2){
+	height:100%;
+}*/
+
+.reelrequest{
 	position: absolute;
-	top:17%;
-	right:10%;
+	top:2400%;
+	left:42%;
+}
+
+
+
+.directorvim > div > p > code > a > img{
+	width: 100%;
+	position: absolute;
+	top:5vh;
+	right:2%;
 	z-index:74;
 }
 
-#modal-trg-txt-wrap-3049{
-	z-index: 74;
-	position: absolute;
-	top:100%;
-}
-
-
-
-#somoroffvid > div > p > code > a > img{
-	width: 107%
-}
-
 @media only screen and (max-width: 420px) {
-	#somoroffvid{
+	.directorvim{
 		position: absolute;
 		bottom:20%;
 	}
 
-	#somorofftext{
+	.directortext{
 		width: 110%;
 	}
 }
