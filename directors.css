@@ -31,15 +31,16 @@
 }
 
 @media only screen and (max-width: 420px) {
-	.directorvim{
+	/*.directorvim{
 		position: absolute;
 		bottom:20%;
 	}
 
 	.directortext{
 		width: 110%;
-	}
+	}*/
 }
+
 
 /*Justin Levine CSS*/
 
@@ -75,14 +76,14 @@
 }
 
 @media only screen and (max-width: 420px) {
-	.directorvim{
+	/*.directorvim{
 		position: absolute;
 		bottom:20%;
 	}
 
 	.directortext{
 		width: 110%;
-	}
+	}*/
 }
 
 /*Vitorio's CSS*/
@@ -130,6 +131,93 @@
 	}*/
 }
 
+/*Etienne CSS*/
+
+#fp59e0dfe51a312{
+    width:75%;
+    /*padding-top:56.25%;*/
+}
+
+/*#somoroffdisplay{
+	width:50%;
+	height:40%;
+}*/
+
+
+/*#somoroffdisplay > div:nth-child(2){
+	height:100%;
+}*/
+
+.reelrequest{
+	position: absolute;
+	top:2400%;
+	left:42%;
+}
+
+
+
+#etiennevim > div > a > img{
+	width: 95%;
+	position: absolute;
+	top:5vh;
+	right:2%;
+	z-index:74;
+}
+
+@media only screen and (max-width: 420px) {
+	/*.directorvim{
+		position: absolute;
+		bottom:20%;
+	}
+
+	.directortext{
+		width: 110%;
+	}*/
+}
+
+/*Antonio Navas CSS*/
+#fp59e0dfe51a312{
+    width:75%;
+    /*padding-top:56.25%;*/
+}
+
+/*#somoroffdisplay{
+	width:50%;
+	height:40%;
+}*/
+
+
+/*#somoroffdisplay > div:nth-child(2){
+	height:100%;
+}*/
+
+.reelrequest{
+	position: absolute;
+	top:2400%;
+	left:42%;
+}
+
+
+
+#antoniovim > div > a > img{
+	width: 95%;
+	position: absolute;
+	top:5vh;
+	right:2%;
+	z-index:74;
+}
+
+@media only screen and (max-width: 420px) {
+	/*.directorvim{
+		position: absolute;
+		bottom:20%;
+	}
+
+	.directortext{
+		width: 110%;
+	}*/
+}
+
 
 
 
@@ -138,7 +226,7 @@
 
 /*template lightbox shortcode
 
-[video_lightbox_vimeo5 video_id="242131803" width="1920" height="1280" anchor="http://somoroffplus.com/wp-content/uploads/2017/06/vittorio1.jpg"]
+[video_lightbox_vimeo5 video_id="241913494" width="1920" height="1280" anchor="http://somoroffplus.com/wp-content/uploads/2017/10/Company-content-montage-13-liquid-montage.00_06_18_18.Still008.png"]
 
 
 [video_lightbox_vimeo5 video_id="242131897" width="1920" height="1280" anchor="http://somoroffplus.com/wp-content/uploads/2017/06/justin1.jpg"]
