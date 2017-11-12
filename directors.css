@@ -218,6 +218,61 @@
 	}*/
 }
 
+/*new directors code for somoroff page*/
+
+#fp59e0dfe51a312{
+    width:75%;
+    /*padding-top:56.25%;*/
+}
+
+/*#somoroffdisplay{
+	width:50%;
+	height:40%;
+}*/
+
+
+/*#somoroffdisplay > div:nth-child(2){
+	height:100%;
+}*/
+
+.reelrequest{
+	position: absolute;
+	top:2400%;
+	left:42%;
+}
+
+
+
+.directorvim > div > p > code > a > img{
+	width: 100%;
+	position: absolute;
+	top:5vh;
+	right:2%;
+	z-index:74;
+}
+
+@media only screen and (max-width: 420px) {
+	.directorvim > div > p > code > a > img{
+	    margin-top:-30%;
+	}
+
+	.directortext{
+		width: 130%;
+		margin-left:-12%;
+    }
+    
+    .vc_single_image-img{
+        width:150%;
+        height:125%;
+    }
+    
+    .reelrequest{
+       position:absolute;
+       right:300%;
+       top:300%;
+    }
+}
+
 
 
 
