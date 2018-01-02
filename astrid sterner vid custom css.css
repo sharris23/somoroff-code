@@ -1,0 +1,18 @@
+
+div.wpb_text_column:nth-child(1) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1), div.wpb_text_column:nth-child(3) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1), div.wpb_text_column:nth-child(5) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1), div.wpb_text_column:nth-child(7) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+    width:80%;
+}
+
+.mobilevid{
+    display:none;
+}
+
+@media only screen and (max-width: 700px){
+    .mobilevid{
+        display:block;
+    }
+    
+    div.wpb_text_column:nth-child(1) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1), div.wpb_text_column:nth-child(3) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1), div.wpb_text_column:nth-child(5) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1), div.wpb_text_column:nth-child(7) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+        display:none;
+    }
+}
